@@ -1,0 +1,618 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.riotbar-header{
+    display: flex;
+}
+#header{
+    background-color: rgb(17, 16, 16);
+    border-bottom: 2px solid rgba(17,51,51,.25);
+    font-family: "FF Mark W05",Arial,sans-serif;
+    font-size: 14px !important;
+    font-weight: bold;
+    height: 80px;
+    line-height: normal;
+    position: relative;
+    text-align: left;
+    display: flex;
+    width: 100%;
+    z-index: 3000000;
+    position: fixed;
+    
+}
+.logo-riot img{
+    width: 119px;
+    height: 59px;
+    padding: 10px 10px 10px 14px;
+    
+}
+.riot-center-content{
+    display: flex;
+}
+.logo-lol img{
+    width: 70px;
+    padding-top: 10px;
+}
+.center-title{
+    display: flex;
+    align-items: center;
+  
+}
+#nav{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+.center-title a{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+    cursor: pointer;
+}
+#nav, .subnav{
+    list-style: none;
+}
+#nav > li{
+    display: block;
+    display: inline-block;
+}
+#nav li{
+    position: relative;
+}
+#nav > li >a {
+    text-transform: uppercase;
+    color: white;
+    font-size: 13px;
+}
+#nav li a{
+    display: inline-block;
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 24px;
+}
+#nav .subnav li:hover,
+#nav > li:hover > a{
+    color: black;
+    background-color: rgb(157, 154, 154);
+    border-radius: 5px;
+}
+#nav li:hover .subnav{
+    display: block;
+}
+
+
+#nav .subnav{
+    width: 190px;
+    display: none;
+    position: absolute;
+    background-color:#656565;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3) ;
+    border-top: 5px solid aqua;
+    border-radius: 5px;
+}
+#nav .subnav a{
+    color:white;
+    padding: 0 20px;
+    
+}
+ 
+.riot-right-content{
+    display: flex;
+}
+
+.riot-right-content .fa-sharp{
+    margin-top: 28px;
+}
+.nav2{
+    display: flex;
+    align-items: center;
+}
+.nav, .subnav2{
+    list-style: none;
+}
+.nav2 > li{
+    display: block;
+    display: inline-block;
+}
+.nav2 li{
+    position: relative;
+}
+.nav2 > li >a {
+    text-transform: uppercase;
+    color: white;
+}
+.nav2 li a{
+    display: inline-block;
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 24px;
+    font-size: 10px;
+    font-weight: bold;
+}
+.nav2 .subnav2 li:hover,
+.nav2 > li:hover > a{
+    color: black;
+    background-color: rgb(157, 154, 154);
+    border-radius: 5px;
+}
+.nav2 li:hover .subnav2{
+    display: block;
+
+}
+
+
+.nav2 .subnav2{
+    width: 190px;
+    display: none;
+    position: absolute;
+    background-color:#656565;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3) ;
+    border-top: 5px solid aqua;
+    border-radius: 5px;
+}
+.nav2 .subnav2 a{
+    color:rgb(255, 255, 255);
+    padding: 0 37px;
+    
+}
+.fa-globe{
+    font-size: 20px;
+    color: white;
+    margin:0px 10px 0px 50px;
+}
+.nav2 .my-accout-top{
+    font-size: 13px;
+}
+.subnav2 .my-accout{
+    font-size: 13px;
+    border-bottom: 2px solid rgb(147, 147, 10);
+}
+.riot-footer{
+    background-color: #111;
+    padding: 0px 0px 48px;
+    border-top: 2px solid #343434;
+    box-sizing: border-box;
+}
+.logo-footer{
+    display: flex;
+    justify-content: center;
+}
+.logo-footer img{
+    width: 135px;
+    height: 55px;
+    margin: 20px;
+}
+.text h4{
+    color: white;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+}
+.text{
+    margin: 0 auto;
+    max-width: 640px;
+    font-weight: 500;
+    font-size: 13px;
+    text-align: center;
+    color: #7e7e7e;
+    box-sizing: border-box;
+}
+.button-footer li a{
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin: 0px 20px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.button-footer ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    
+}
+.button-footer ul{
+    list-style: none;
+}
+.button-footer li a:hover{
+    background-color: #7e7e7e;
+}
+.game-rating{
+    user-select: none;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.gamebar-rating{
+    max-width: 100%;
+    padding: 8px 12px;
+    background: #292929;
+    border-radius: 8px;
+    margin: 50px 0px;
+}
+.rating-text-wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.rattng-text{
+    color:white;
+    padding-left: 15px;
+}
+#main{
+    padding-top: 80px;
+}
+#main .top{
+    background-image: url(../img/kda/kda-hero.jpg);
+    background-size: cover;
+    width: 100%;
+}
+   
+.top-content{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.title  h1{
+    color: white;
+    font-family:Spiegel,Helvetica,Cambria,sans-serif,microsoft yahei;
+    margin-bottom: 40px;
+    padding: 0 55px;
+}
+.logo{
+    height: 377px;
+    margin-top: 200px;
+}
+
+.logo img{
+    max-width: 1070px;
+    height:480px;
+}
+.title  h2{
+    color: white;
+    font-family:Spiegel,Helvetica,Cambria,sans-serif,microsoft yahei;
+    margin-bottom: 40px;
+    padding: 0 55px;
+}
+.body {
+    margin-bottom: 100px;
+}
+ .body p{
+    font-family: Spiegel,Helvetica,Cambria,sans-serif,microsoft yahei;
+    font-size: 14px;
+    color: #fff;
+    font-style: italic;
+    font-weight: 600;
+    max-width: 600px;
+    text-align: center;
+}
+.video{
+    padding-top: 100px;
+    background-color: #000000;
+    align-items: center;
+    justify-content: center;
+    background-image: url(	https://universe.leagueoflegends.com/images/soundbar.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-video .title{
+    width: 400px;
+    margin: 0 auto;
+}
+.title .title1 h4{
+    padding:0 119px;
+    color: #e5b48f;
+    margin-bottom: 10px;
+}
+.title .title2 h1{
+    padding: 0 33px;
+    color: rgb(255, 255, 255);
+}
+.main-video{
+    width: 100%;
+}
+.yt{
+    display: flex;
+    justify-content: center;
+    margin-top: -100px;
+}
+.yt iframe{
+    margin-top: 90px;
+    border: 2px solid #e5b48f;
+    width: 1000px;
+    margin-bottom: 100px;
+}
+.champ{
+    background-image: url(../img/kda/kda-splash-background.jpg);
+    width: 100%;
+    height: 880px;
+}
+#myCarousel{
+    width: 100%;
+    height: 1000px;
+}
+.item1, .item2, .item3, .item4 {
+    display: flex;
+}
+.item .left{
+    width: 61%;
+    height: 100%;
+}
+.item .left img{
+    width: 1290px;
+    height: 1000px;
+}
+.right{
+    width: 40%;
+}
+.avatar{
+    padding-top:110px ;
+}
+.avatar img{
+    transform: skewX(350deg);
+    margin-left: 20px;
+    width: 80px;
+    height: 90px;
+}
+.avt1, .avt2, .avt3, .avt4{
+    border: 5px solid #e5b48f;
+}
+.name{
+    display: flex;
+}
+.name h2{
+    font-size: 18px;
+    margin-left: 34px;
+    color: rgb(143, 141, 141);
+    font-weight: bold;
+}
+.name .n1{
+    color: rgb(255, 255, 255);
+}
+.name .n2{
+    color: rgb(255, 255, 255);
+}
+
+.name .n3{
+    color: rgb(255, 255, 255);
+}
+.name .n4{
+    color: rgb(255, 255, 255);
+}
+.header{
+    margin-top: 50px;
+    line-height: 10px;
+}
+.header h5{
+    color: rgb(134, 134, 19);
+    font-weight: bold;
+}
+.header h1{
+    font-family: BarlowCondensed,Spiegel,Arial,sans-serif;
+    font-size: 60px;
+    color: #fff;
+    transform: skewX(350deg);
+}
+.left{
+    width: 40%;
+}
+.left h5{
+    margin-top: 30PX;
+    color: rgb(115, 115, 45) ;
+    font-weight: bold;
+    transform: skewX(350deg);
+    color: #e5b48f
+}
+.left h3{
+    margin-top: 10px;
+    color: white;
+    transform: skewX(350deg);
+}
+.in4{
+    display: flex;
+}
+.in4 .left{
+    width: 50%;
+}
+.right h5{
+    margin-top: 30PX;
+    color: rgb(115, 115, 45) ;
+    font-weight: bold;
+    transform: skewX(350deg);
+    color: #e5b48f
+}
+.right h3{
+    margin-top: 10px;
+    color: white;
+    transform: skewX(350deg);
+}
+.tab button{
+    margin-top: 30px;
+    width: 300px;
+    background-color: #e5b48f;
+    border-radius: 5px;
+}
+
+.tab button h4{
+    color: #000;
+    font-size: 16;
+    font-weight: bold;
+}
+.tab p{
+    width: 450px;
+    margin-top: 10px;
+}
+.tab p{
+    color: white;
+}
+.more{
+    background-image: url(../img/kda/kda-modules-background.jpg);
+    background-size: cover;
+    height: 790px;
+}
+.more-body{
+    margin: 0 auto;
+    max-width: 1060px;
+    padding: 80px 20px 40px;
+    height: 100px;
+}
+.title-top h1{
+    margin-left: 40px;
+    color: #fff;
+    transform: skewX(350deg);
+    font-weight: bold;
+}
+.more-body .list{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 40px;
+}
+.list .item{
+    width: 280px;
+    margin-right: 20px;
+}
+.top-item h5{
+    color: #e5b48f;
+    font-weight: bold;
+    transform: skewX(350deg);
+}
+.top-item h3{
+    color: #ffffff;
+    font-weight: bold;
+    transform: skewX(350deg);
+    margin: 5px 0;
+
+}
+.item .body img{
+    width: 280px;
+}
+.item .body{
+    background-color:#1e1b2c ;
+}
+.item .body .bottom{
+    height: 50px;
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    border-top: 1px solid #020202;
+}
+.item1 .body .bottom{
+    margin-top: 198px;
+}
+.item3 .body .bottom{
+    margin-top: 175px;
+}
+.body .text{
+    font-size: 17px;
+}
+.body .bottom .tbt{
+    margin: 0;
+}
+.body .bottom .fa-angle-right{
+    margin-left: 90px;
+}
+.body .bottom:hover{
+    background-color:#e5b48f ;
+}
+.poster{
+    background-image: url(../img/kda/kda-music-stream-background.jpg);
+    background-size: cover;
+}
+.body-poster{
+    max-width: 1220px;
+    padding: 90px 20px;
+}
+.body-poster{
+    display: flex;
+    margin: 0 auto;
+}
+.body-poster .left{
+    width: 50%;
+    margin-left: 50px;
+}
+.body-poster .left img{
+    box-shadow: rgb(255, 254, 254) 0px 0px 57px -26px;
+}
+.body-poster .right{
+    margin: auto 20px;
+}
+.body-poster .right p{
+    color: #e5b48f;
+    font-weight: bold;
+    transform: skewX(350deg);
+}
+.body-poster .right .txt{
+    color: white;
+    transform: skewX(350deg);
+}
+.body-poster .right h1{
+    color: white;
+    transform: skewX(350deg);
+}
+.body-poster .right .bottom{
+    display: flex;
+}
+.body-poster .right .bottom p{
+    color: white;
+}
+.body-poster .right .bottom .fa-angle-right{
+    color: #e5b48f;
+    display: flex;
+    margin: 3px 0px 0px 40px; 
+}
+.body-poster .right .bottom p:hover{
+    color:#e5b48f ;
+}
+#bottom{
+    background-image: url(../img/kda/kda-merch-background.jpg);
+    background-size: cover;
+}
+
+.main-bottom{
+    padding-top: 50px;
+    width: 1300PX;
+    display: flex;
+    justify-content: center;
+}
+.main-bottom #title{
+    margin: auto 0;
+    margin-left: 180px;
+    line-height: 30px;
+}
+.main-bottom #title h2{
+    color: white;
+    transform: skewX(350deg);
+}
+.main-bottom #title span p{
+    color: white;
+    transform: skewX(350deg);
+}
+.main-bottom #title a{
+    display: flex;
+}
+.main-bottom #title a p{
+    color: white;
+    font-weight: bold;
+    transform: skewX(350deg);
+}
+.main-bottom #title a p:hover{
+    color: #e5b48f;
+    font-weight: bold;
+    transform: skewX(350deg);
+}
+.main-bottom #title a .fa-angle-right{
+    margin: 8px 0px 0px 50px;
+    color:#e5b48f ;
+}

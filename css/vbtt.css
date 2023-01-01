@@ -1,0 +1,422 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.riotbar-header{
+    display: flex;
+}
+#header{
+    background-color: rgb(17, 16, 16);
+    border-bottom: 2px solid rgba(17,51,51,.25);
+    font-family: "FF Mark W05",Arial,sans-serif;
+    font-size: 14px !important;
+    font-weight: bold;
+    height: 80px;
+    line-height: normal;
+    position: relative;
+    text-align: left;
+    display: flex;
+    width: 100%;
+    z-index: 3000000;
+    position: fixed;
+    
+}
+.logo-riot img{
+    width: 119px;
+    height: 59px;
+    padding: 10px 10px 10px 14px;
+    
+}
+.riot-center-content{
+    display: flex;
+}
+.logo-lol img{
+    width: 70px;
+    padding-top: 10px;
+}
+.center-title{
+    display: flex;
+    align-items: center;
+  
+}
+#nav{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+.center-title a{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+    cursor: pointer;
+}
+#nav, .subnav{
+    list-style: none;
+}
+#nav > li{
+    display: block;
+    display: inline-block;
+}
+#nav li{
+    position: relative;
+}
+#nav > li >a {
+    text-transform: uppercase;
+    color: white;
+    font-size: 13px;
+}
+#nav li a{
+    display: inline-block;
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 24px;
+}
+#nav .subnav li:hover,
+#nav > li:hover > a{
+    color: black;
+    background-color: rgb(157, 154, 154);
+    border-radius: 5px;
+    border-bottom: 4px solid rgb(159, 159, 13);
+}
+#nav li:hover .subnav{
+    display: block;
+}
+
+
+#nav .subnav{
+    width: 190px;
+    display: none;
+    position: absolute;
+    background-color:#656565;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3) ;
+    border-top: 5px solid aqua;
+    border-radius: 5px;
+}
+#nav .subnav a{
+    color:white;
+    padding: 0 20px;
+    
+}
+ 
+.riot-right-content{
+    display: flex;
+}
+
+.riot-right-content .fa-sharp{
+    margin-top: 28px;
+}
+.nav2{
+    display: flex;
+    align-items: center;
+}
+.nav, .subnav2{
+    list-style: none;
+}
+.nav2 > li{
+    display: block;
+    display: inline-block;
+}
+.nav2 li{
+    position: relative;
+}
+.nav2 > li >a {
+    text-transform: uppercase;
+    color: white;
+}
+.nav2 li a{
+    display: inline-block;
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 24px;
+    font-size: 10px;
+    font-weight: bold;
+}
+.nav2 .subnav2 li:hover,
+.nav2 > li:hover > a{
+    color: black;
+    background-color: rgb(157, 154, 154);
+    border-radius: 5px;
+}
+.nav2 li:hover .subnav2{
+    display: block;
+
+}
+
+
+.nav2 .subnav2{
+    width: 190px;
+    display: none;
+    position: absolute;
+    background-color:#656565;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3) ;
+    border-top: 5px solid aqua;
+    border-radius: 5px;
+}
+.nav2 .subnav2 a{
+    color:rgb(255, 255, 255);
+    padding: 0 37px;
+    
+}
+.fa-globe{
+    font-size: 20px;
+    color: white;
+    margin:0px 10px 0px 50px;
+}
+.nav2 .my-accout-top{
+    font-size: 13px;
+}
+.subnav2 .my-accout{
+    font-size: 13px;
+    border-bottom: 2px solid rgb(147, 147, 10);
+}
+
+.riot-footer{
+    background-color: #111;
+    padding: 0px 0px 48px;
+    border-top: 2px solid #343434;
+    box-sizing: border-box;
+}
+.logo-footer{
+    display: flex;
+    justify-content: center;
+}
+.logo-footer img{
+    width: 135px;
+    height: 55px;
+    margin: 20px;
+}
+.text h4{
+    color: white;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+}
+.text{
+    margin: 0 auto;
+    max-width: 640px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 140%;
+    text-align: center;
+    word-break: keep-all;
+    color: #7e7e7e;
+    box-sizing: border-box;
+}
+.button-footer li a{
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin: 0px 20px;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+.button-footer ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    
+}
+.button-footer ul{
+    list-style: none;
+}
+.button-footer li a:hover{
+    background-color: #7e7e7e;
+}
+.game-rating{
+    user-select: none;
+    box-sizing: border-box;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.gamebar-rating{
+    max-width: 100%;
+    padding: 8px 12px;
+    background: #292929;
+    border-radius: 8px;
+    margin: 50px 0px;
+}
+.rating-text-wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.rattng-text{
+    color:white;
+    padding-left: 15px;
+}
+.nen1 {
+    background-image: url(https://universe.leagueoflegends.com/images/sgHeaderBackground.png);
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.nen2 img {
+    width: 100%;
+}
+.nen3{
+    background-image: url(https://universe.leagueoflegends.com/images/sgBlurredBackground.png);
+    margin-top: -4px;
+    height: 200px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.nen4 {
+    background-image: url(https://universe.leagueoflegends.com/images/sgLandingBackground.jpg);
+    background-size: cover;
+    height: fit-content;
+    margin-bottom: 0;
+}
+.nen1 .logo{
+    position: absolute;
+    vertical-align: baseline;
+    text-align: center;
+    margin-top: 100px;
+    size: 10px;
+}
+.logo img {
+    width: 100px;
+    height: 60px;
+}
+.ndnen1 h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: cover;
+    margin-top: 160px;
+    line-height: 1.22;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+.ndnen1 p {
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px 20px;
+    max-width: 800px;
+}
+.ndnen3 {
+    /* margin: 0 auto; */
+    color: white;
+    max-width: 500px;
+}
+.btn-readbios{
+    margin-left: 100px;
+    padding: 20px;
+    font-size: 18px;
+    border: none;
+    border: 1px solid #e9e9ff;
+    background-color: #0a1231;
+}
+.btn-readbios a{
+    text-decoration: none;
+    color: #e9e9ff;
+}
+.btn-readbios:hover{
+    background-color: rgba(73,79,102,.45);
+}
+.ndnen3 p {
+    font-size: 18px;
+}
+.biutuong {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 60px 0px;
+}
+.trai {
+    background-image: linear-gradient(90deg,rgba(0,0,0,0),hsla(0,0%,100%,.41));
+    margin-right: -16px;
+    height: 1px;
+    max-width: 400px;
+    width: 35%;
+}
+.phai {
+    background-image: linear-gradient(90deg,hsla(0,0%,100%,.41),rgba(0,0,0,0));
+    margin-left: -16px;
+    height: 1px;
+    max-width: 400px;
+    width: 35%;
+}
+.ndnen4 {
+    padding: 0px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.loli {
+    padding: 10px;
+}
+.khung {
+    height: 100%;
+    width: 100%;
+}
+.ndnen4 .loli{
+   width: 400px;
+   height: auto;
+   border: 1px solid white;
+   margin: 50px;
+}
+.hinh img{
+    width: 100%;
+    height: 600px;
+}
+.chu h2 {
+    color: white;
+    padding: 50px 0px;
+    margin: 10px 80px;
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.chu h3{
+    color: #fc39af;
+    margin: 10px 80px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 10px 0px;
+}
+.chu p{
+    color: white;
+    margin: 10px 80px;
+}
+.chu{
+    background-color: #060e2d;
+    width: 100%;
+    height: 400px;
+    margin-top: -19px;
+    position: relative;
+}
+.chu button{
+    margin: 10px 80px;
+    padding: 20px;
+    background-color: #060e2d;
+    border: 1px solid white;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 900;
+    bottom: 0;
+    position: absolute;
+    margin-bottom: 20px;
+}
+.chu button:hover{
+    background-color: #e9e9ff;
+}
